@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的健身应用 - Gym App</title>
+    <style>
+        /* 页面整体样式 */
+        body {
+            font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a; /* 深色背景，显专业 */
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* 顶部标题栏 */
+        header {
+            width: 100%;
+            padding: 20px 0;
+            background: linear-gradient(135deg, #ff4b2b, #ff416c); /* 运动橙红色渐变 */
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 24pt;
+            letter-spacing: 2px;
+        }
+
+        /* 主体内容区 */
+        .container {
+            width: 90%;
+            max-width: 500px;
+            margin-top: 30px;
+        }
+
+        .card {
+            background-color: #2d2d2d;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-left: 5px solid #ff4b2b;
+        }
+
+        .card h2 {
+            margin-top: 0;
+            color: #ff4b2b;
+            font-size: 18pt;
+        }
+
+        .card p {
+            color: #cccccc;
+            line-height: 1.6;
+        }
+
+        /* 按钮样式 */
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 15px 0;
+            background-color: #ff4b2b;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: 14pt;
+            margin-top: 20px;
+            transition: 0.3s;
+        }
+
+        .btn:active {
+            transform: scale(0.95);
+            background-color: #e04325;
+        }
+
+        footer {
+            margin-top: 50px;
+            color: #666;
+            font-size: 10pt;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>GYM APP</h1>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2>今日计划</h2>
+            <p>🏃 晨跑：5公里<br>💪 力量训练：深蹲 4组<br>🧘 拉伸：10分钟</p >
+        </div>
+
+        <div class="card">
+            <h2>身体数据</h2>
+            <p>体重：75kg<br>体脂率：18%<br>目标：增肌 2.0kg</p >
+        </div>
+
+        开始今日训练
+    </div>
+
+    <footer>
+        &copy; 2026 Li Jie Gym App 版权所有
+    </footer>
+
+</body>
+</html>
